@@ -1,1 +1,4 @@
-console.log("Hey! ✋ this is my first line of code");
+const prompt = require("prompt-sync")();
+
+const name = prompt("What is your name? ");
+console.log(`Hey there ${name}`);
